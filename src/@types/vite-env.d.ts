@@ -1,2 +1,2 @@
-declare module "loginApp/LoginPage";
 declare module "dashboardApp/DashboardPage";
+declare module "templateApp/TemplateApp";
