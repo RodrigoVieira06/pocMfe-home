@@ -48,3 +48,8 @@ export default tseslint.config({
   },
 })
 ```
+
+env
+```
+VITE_REMOTE_DASHBOARD="http://localhost:5176/assets/remoteEntry.js"
+```
