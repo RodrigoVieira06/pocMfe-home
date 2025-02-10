@@ -1,4 +1,3 @@
-// home-app/src/SideNav.tsx
 import React from "react";
 import { NavLink } from "react-router-dom";
 
@@ -11,7 +10,6 @@ const SideNav: React.FC = () => {
             Dashboard
           </NavLink>
         </li>
-        {/* Futuramente, outros links para MFEs internos */}
       </ul>
     </nav>
   );

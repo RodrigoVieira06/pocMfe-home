@@ -1,4 +1,3 @@
-// home-app/src/Header.tsx
 import React from "react";
 
 const Header: React.FC = () => {

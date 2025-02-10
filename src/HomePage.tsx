@@ -1,4 +1,3 @@
-// home-app/src/HomePage.tsx
 import React from "react";
 import Header from "./components/Header/Header";
 import SideNav from "./components/Sidenav/SideNav";
@@ -11,7 +10,6 @@ const HomePage: React.FC = () => {
       <div style={{ display: "flex", minHeight: "calc(100vh - 60px)" }}>
         <SideNav />
         <main style={{ flex: 1, padding: "20px" }}>
-          {/* Aqui o DashboardLoader gerencia as rotas internas */}
           <DashboardLoader />
         </main>
       </div>
